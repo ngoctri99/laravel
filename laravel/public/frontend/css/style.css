@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    min-height: 100vh;
+}
+.wrapper{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.wrapper .header{
+    width: 100%;
+    height: 80px;
+    background: #000;
+    line-height: 80px;
+}
+.wrapper .header .logo{
+    color: aliceblue;
+    margin-left: 250px;
+    float: left;
+}
+.wrapper .header .nav{
+    float: right;
+    margin-right: 250px;
+}
+.wrapper .header .nav .menu{
+    list-style: none;
+    display: flex;
+}
+.wrapper .header .nav .menu li{
+    padding: 0px 15px;
+}
+.wrapper .header .nav .menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    transition: all 0.3;
+}
+.wrapper .header .nav .menu li:hover > a{
+    color: aqua;
+}
+.wrapper .sidebar{
+    min-height: 100vh;
+    width: 20%;
+    background: rgb(214, 15, 15);
+    float: left;
+}
+.wrapper .sidebar h2{
+    text-align: center;
+}
+.wrapper .sidebar .menu-sidebar{
+    margin-left: 40px;
+    list-style: none;
+}
+.wrapper .sidebar .menu-sidebar li{
+    padding: 10px 0;
+}
+.wrapper .sidebar .menu-sidebar li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3;
+}
+.wrapper .sidebar .menu-sidebar li:hover> a{
+    color: rgb(10, 136, 136);
+}
+.wrapper .content{
+    width: 80%;
+    min-height: 100vh;
+    background: rgb(42, 17, 151);
+    float: left;
+}
+.wrapper .content .body-content{
+    width: 95%;
+    margin: 10px auto;
+}
+.wrapper .content .body-content .panel{
+    width: 250px;
+    max-height: 350px;
+    float: left;
+    border: 1px solid #000;
+    margin: 5px 19px;
+}
+.wrapper .content .body-content .panel img{
+    width: 100%;
+}
+.wrapper .footer{
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background: #000;
+    color: moccasin;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+}
