@@ -1,0 +1,6 @@
+-- Khởi tạo project mới
+    --> composer  create-project laravel/laravel demo --prefer-dist
+-- Tạo mới controller
+    -> php artisan make:controller NameController
+-- Tạo mới Table
+    -> php artisan make:migration create_tbl_name --create=tbl_name
