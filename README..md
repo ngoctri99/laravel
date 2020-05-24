@@ -1,5 +1,7 @@
 -- Khởi tạo project mới
     --> composer  create-project laravel/laravel demo --prefer-dist
+Trên linux sau khi tạo ptoject nếu chạy localhost bị lỗi UnexpectedValueException thrown with message "The stream or file "/var/www/html/laravel/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied thì thực hiện dòng lệnh sau : 
+    -> sudo chown www-data.www-data /var/www/html/laravel/storage/ -R
 -- Tạo mới controller
     -> php artisan make:controller NameController
 -- Tạo mới Table
